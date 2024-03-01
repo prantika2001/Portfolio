@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Prantika Baidya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <!-- make logo -->
+                <div class="logo">
+                    <a href="#"><h1><span>P</span>rantika.</h1></a>
+                </div>
+                <!-- <img src="images/logo." alt="logo" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>B.Tech (IT) Graduate</p>
+                <h1>Hi, I'm <span>Prantika</span><br>Baidya from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab natus unde doloremque exercitationem ad labore quo vel ea libero esse aliquam, et doloribus aut fuga nam, magnam facilis voluptatibus? Praesentium.
+                    Aperiam voluptatibus asperiores mollitia unde. Minima, amet aspernatur! Ipsa commodi perferendis unde ipsum, nostrum eveniet similique enim iure harum, corporis minima rem iusto eius, natus optio dicta dignissimos exercitationem accusamus.</p>
+                    <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                       <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class ="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>fdgdfgsh</li>
+                            <li><span>UI/UX</span><br>dgfdgd</li>
+                            <li><span>UI/UX</span><br>fdgfgfdgde</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>fgace</li>
+                            <li><span>UI/UX</span><br>fgace</li>
+                            <li><span>UI/UX</span><br>Degfdsface</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------------------projects----------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil autem quisquam esse facere at, harum iusto assumenda illum, sequi eveniet non quo tempore aperiam, quod dolor sint neque veniam alias?
+                    Rem facere iure earum, magni sed mollitia. Quibusdam distinctio veritatis veniam neque laborum id assumenda sequi accusantium quisquam, nesciunt, asperiores repellat itaque nostrum quis? Itaque, in deleniti. Molestiae, et doloremque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>UI Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil autem quisquam esse facere at, harum iusto assumenda illum, sequi eveniet non quo tempore aperiam, quod dolor sint neque veniam alias?
+                    Rem facere iure earum, magni sed mollitia. Quibusdam distinctio veritatis veniam neque laborum id assumenda sequi accusantium quisquam, nesciunt, asperiores repellat itaque nostrum quis? Itaque, in deleniti. Molestiae, et doloremque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-dog"></i>
+                    <h2>UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil autem quisquam esse facere at, harum iusto assumenda illum, sequi eveniet non quo tempore aperiam, quod dolor sint neque veniam alias?
+                    Rem facere iure earum, magni sed mollitia. Quibusdam distinctio veritatis veniam neque laborum id assumenda sequi accusantium quisquam, nesciunt, asperiores repellat itaque nostrum quis? Itaque, in deleniti. Molestiae, et doloremque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------portfolio--------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" >
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci nemo repudiandae sequi eveniet harum magnam soluta, modi obcaecati aliquid.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg" >
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci nemo repudiandae sequi eveniet harum magnam soluta, modi obcaecati aliquid.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg" >
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci nemo repudiandae sequi eveniet harum magnam soluta, modi obcaecati aliquid.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------------------------Contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>1234567890</p>
+
+                     <div class="social-icons">
+                        <!--<ul>
+                            <li class="item">
+                              <a href="#">
+                                <i class="fa-brands fa-instagram icon"></i>
+                              </a>
+                            </li>
+                            <li class="item">
+                              <a href="#">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                              </a>
+                            </li>
+                            <li class="item">
+                              <a href="#">
+                                <i class="fa-brands fa-youtube icon"></i>
+                              </a>
+                            </li>
+                            <li class="item">
+                              <a href="#">
+                                <i class="fa-brands fa-x-twitter icon"></i>
+                              </a>
+                            </li>
+                        </ul>-->
+                        <a href="" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                     </div> 
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fa-solid fa-heart"></i> by Prantika Baidya</p>
+        </div>
+    </div>
+
+    <!-- <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button> -->
+
+         <!-- Your content goes here -->
+          <!-- <div style="height: 2000px;"> -->
+          <!-- Content to make the page scrollable -->
+           <!-- </div> -->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        window.onscroll = function() {scrollFunction()};
+
+    // function scrollFunction() {
+    //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //         document.getElementById("scrollToTopBtn").style.display = "block";
+    //     } else {
+    //        document.getElementById("scrollToTopBtn").style.display = "none";
+    //     }
+    // }
+
+    // function scrollToTop() {
+    //    document.body.scrollTop = 0; // For Safari
+    //     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    // }
+    </script>
+    
+</body>
+</html>
